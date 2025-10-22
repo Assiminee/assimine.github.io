@@ -103,7 +103,7 @@ const Navigation = () => {
                             variant="ghost"
                             size="sm"
                             onClick={() => setLanguage(language === 'en' ? 'fr' : 'en')}
-                            className="text-white hover:text-accent"
+                            className="text-white"
                         >
                             <Languages className="w-4 h-4 mr-2"/>
                             {language === 'en' ? 'FR' : 'EN'}
